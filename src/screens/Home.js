@@ -7,13 +7,13 @@ const Home = () => {
     <>
       <div className="App">
         <header className="App-header">
-          <h1>
-            Welcome to Sign Talk 
+          <h1 id="welcome">
+            Welcome to SignTalk 
           </h1>
           <img src="/images/SIGN.png" className="App-logo" alt="logo" />
           <Link to="/learn">
             <button id="button-go" href="https://google.fr">
-              C'est parti! 
+              C'est parti ! 
             </button>
           </Link>
         </header>
