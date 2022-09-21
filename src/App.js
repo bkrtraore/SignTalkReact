@@ -1,22 +1,18 @@
-import logo from './SIGN.png';
-import './styles/App.css';
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
+import { Home, Learn } from './screens'
 
-function App() {
+const App = () => {
   return (
-    
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Welcome to Sign Talk 
-        </h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <button id="button-go" href="https://google.fr">
-          C'est parti ! 
-        </button>
-      </header>
-    </div>
-  );
+    <Router>
+      <Routes>
+        <Route path='*' element={<Home/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/learn' element={<Learn/>}></Route>
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
