@@ -71,5 +71,6 @@ Pour pallier ces problématiques, SignTalk est une application web qui permet de
 ** Traduire le texte d’un texte traduit d’une vidéo en LSF
 
 == Partie 3 : Modélisation
-Le faire pour les features de la première itération, ça sera ensuite à mettre à jour et compléter à chaque itération.
+Le faire pour les features de la première itération, puis celles qui suivent et ensuite compléter.
+
 Maquette du front correspondant à la feature (une ou plusieurs représentation d'interface, avec la description des enchaînements) 
