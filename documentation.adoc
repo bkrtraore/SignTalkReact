@@ -6,7 +6,7 @@
 :revremark: First draft
 :imagesdir: public/images
 
-=== Partie 1 : synthèse
+== Partie 1 : Présentation 
 
 * Titre du projet, abréviation, logo
 
@@ -16,11 +16,11 @@
 
 ** image:SIGN.png[Logo,100,100]
 
-* Membres de l'équipe (3 ou 4)
+* Membres de l'équipe 
 
 ** Bakari, Lamia, Mustapha, Thomas
 
-* Présentation 
+* Notre projet 
  
 Le 10 février 2010, le secrétariat d'État chargé de la famille et de la solidarité publiait le plan en faveur des personnes sourdes et malentendantes. Il y est noté différents points chiffrés :
 
@@ -50,7 +50,7 @@ Pour pallier ces problématiques, SignTalk est une application web qui permet de
 * Prévisions marketing (comment prévoyez vous de pousser votre projet auprès des utilisateurs, réseaux sociaux, enquêtes, flyers, site Web, etc) :
 ** Compte twitter, enquêtes de rue, site Web 
 
-=== Partie 2 : aspect techniques
+== Partie 2 : Aspects techniques
 
 * Type d'application (web, mobile)
 ** Site web puis éventuellement mobile
@@ -70,6 +70,6 @@ Pour pallier ces problématiques, SignTalk est une application web qui permet de
 ** Reconstitution en LSF d’une phrase complète en temps réel par découpe de phonème.
 ** Traduire le texte d’un texte traduit d’une vidéo en LSF
 
-=== Partie 3 : modélisation
+== Partie 3 : Modélisation
 Le faire pour les features de la première itération, ça sera ensuite à mettre à jour et compléter à chaque itération.
 Maquette du front correspondant à la feature (une ou plusieurs représentation d'interface, avec la description des enchaînements) 
